@@ -1,0 +1,43 @@
+body {
+  background-color: Azure;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+input[type=text] {
+    width: 220px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
+
+#table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    display:block; height:auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    /*width: 75%;*/
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
